@@ -110,7 +110,7 @@ public class TicTacToeFrame extends JFrame
         if (response == JOptionPane.YES_OPTION) {
             clearBoard();
         } else {
-            JOptionPane.showMessageDialog(this, "Thanks for playing!");
+            JOptionPane.showMessageDialog(this, "Thanks for playing!", "Goodbye", JOptionPane.INFORMATION_MESSAGE);
             System.exit(0);
         }
     }
